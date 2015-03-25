@@ -195,7 +195,6 @@
     <ClCompile Include="../../../source/crypto/bf/bf_ofb64.c" />
     <ClCompile Include="../../../source/crypto/bf/bf_skey.c" />
     <ClCompile Include="../../../source/crypto/bio/b_dump.c" />
-    <ClCompile Include="../../../source/crypto/bio/b_posix.c" />
     <ClCompile Include="../../../source/crypto/bio/b_print.c" />
     <ClCompile Include="../../../source/crypto/bio/b_sock.c" />
     <ClCompile Include="../../../source/crypto/bio/b_win.c" />
@@ -613,7 +612,6 @@
     <ClCompile Include="../../../source/crypto/txt_db/txt_db.c" />
     <ClCompile Include="../../../source/crypto/ui/ui_err.c" />
     <ClCompile Include="../../../source/crypto/ui/ui_lib.c" />
-    <ClCompile Include="../../../source/crypto/ui/ui_openssl.c" />
     <ClCompile Include="../../../source/crypto/ui/ui_openssl_win.c" />
     <ClCompile Include="../../../source/crypto/ui/ui_util.c" />
     <ClCompile Include="../../../source/crypto/whrlpool/wp_block.c" />
