@@ -1,0 +1,6 @@
+Project(components/net.libressl libressl)
+Version(2.1.3)
+
+# Target: libcrypto.lib
+AddTarget(libcrypto.lib StaticLibrary source/crypto/**/*.c source/crypto/**/*.h include/**/*.h)
+AddIncludeDirectory(libcrypto.lib Export Path source/crypto source/crypto/asn1 source/crypto/evp source/crypto/modes)
